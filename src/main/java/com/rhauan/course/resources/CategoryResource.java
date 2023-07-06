@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.rhauan.course.entities.Category;
+import com.rhauan.course.services.CategoryService;
 
 @RestController
 @RequestMapping(value = "/categories")

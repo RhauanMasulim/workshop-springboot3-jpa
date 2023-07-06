@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import jakarta.persistence.criteria.Order;
+import com.rhauan.course.entities.Order;
+import com.rhauan.course.services.OrderService;
 
 @RestController
 @RequestMapping(value = "/orders")
